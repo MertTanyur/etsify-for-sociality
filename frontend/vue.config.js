@@ -1,5 +1,5 @@
 module.exports = {
     devServer: {
-        proxy: 'http://localhost:8081'
+        proxy: 'https://sociality4-sl6b2mo6eq-uc.a.run.app/'
     }
 }
