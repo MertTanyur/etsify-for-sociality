@@ -8,6 +8,7 @@ app = FastAPI()
 if config.dockerized:
     print('app running on guvicorn fastapi')
     origins = [
+        "https://etsify-for-sociality.netlify.app",
         "http://localhost",
         "http://localhost:8080",
         "https://localhost:8080",
